@@ -1,4 +1,11 @@
-pluginManagement { repositories { google() mavenCentral() gradlePluginPortal() } }
-dependencyResolutionManagement { repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) repositories { google() mavenCentral() } }
-rootProject.name = "UDP-Video-Call" include(":app")
+pluginManagement {
+repositories {
+google()
+mavenCentral()
+gradlePluginPortal()
+}
+}
 
+rootProject.name = "UDP-Video-Call"
+
+include(":app")
